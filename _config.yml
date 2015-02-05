@@ -1,0 +1,14 @@
+# Site settings
+title: Mopio Help
+email: help@mop.io
+baseurl: ""
+url: "http://help.mop.io"
+twitter_username: useMopio
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+# Outputting
+  permalink: none
