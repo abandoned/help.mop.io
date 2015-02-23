@@ -2,52 +2,18 @@
 layout: default
 ---
 
-<div class="home">
-
-
-  <ul class="post-list">
-    <h2>Setup</h2>
-    <li>
-      <a class="post-link" href="#">Signing up for a new Mopio account</a>
-    </li>
-    <li>
-      <a class="post-link" href="#">What is Amazon MWS?</a>
-    </li>
+<h1>Mopio Help</h1>
+{% for section in site.data.docs %}
+  <h2>{{ section.title }}</h2>
+  <ul class="doc-list">
+    {% for page in section.pages %}
+      {% assign doc_url = page | prepend:"/" | append:"/" %}
+      {% for doc in site.docs %}
+        {% if doc.url == doc_url %}
+          <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
   </ul>
-
-  <ul class="post-list">
-    <h2>Algorithm</h2>
-    <li>
-      <a class="post-link" href="#">Setting limits</a>
-    </li>
-    <li>
-      <a class="post-link" href="#">Good resources for learning about pricing on Amazon</a>
-    </li>
-  </ul>
-
-  <ul class="post-list">
-    <h2>Listings</h2>
-    <li>
-      <a class="post-link" href="#">Reviewing price changes</a>
-    </li>
-  </ul>
-
-  <ul class="post-list">
-    <h2>Subscription</h2>
-    <li>
-      <a class="post-link" href="#">Paying for your subscription</a>
-    </li>
-    <li>
-      <a class="post-link" href="#">Updating your credit card</a>
-    </li>
-    <li>
-      <a class="post-link" href="#">Does Mopio provide custom packages?</a>
-    </li>
-    <li>
-      <a class="post-link" href="#">What do I do if my card is declined?</a>
-    </li>
-    <li>
-      <a class="post-link" href="#">How do I cancel my account?</a>
-    </li>
-  </ul>
-</div>
+{% endfor %}
