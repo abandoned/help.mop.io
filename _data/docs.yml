@@ -1,9 +1,11 @@
 - title: Getting Started
   pages:
   - amazon-mws-integration
+  - how-does-mopio-reprice
 - title: Settings
   pages:
   - relative-margin
   - absolute-floor
+  - used-listings
 - title: Listings
 - title: Subscription
