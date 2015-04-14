@@ -6,8 +6,10 @@
   pages:
   - relative-margin
   - absolute-floor
-  - used-listings
 - title: Listings
   pages:
   - base-price
 - title: Subscription
+- title: Other
+  pages:
+  - used-listings
