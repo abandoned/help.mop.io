@@ -1,8 +1,8 @@
 /**
  * Site header
  */
-.hero {
-  background-color: $hero-bg;
+.site-header {
+  background-color: $header-bg;
   text-align: center;
 
   img {
@@ -10,6 +10,14 @@
     width: 256px;
     margin-bottom: -72px;
   }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  padding: $spacing-unit 0;
+  background: $grey-color-light;
 }
 
 /**
@@ -29,34 +37,5 @@
   .doc-list {
     list-style: none;
     margin-left: 0;
-  }
-}
-
-/**
- * Posts
- */
-.post-header {
-  margin-bottom: $spacing-unit;
-}
-
-.post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1;
-}
-
-.post-content {
-  margin-bottom: $spacing-unit;
-
-  h2 {
-    font-size: 32px;
-  }
-
-  h3 {
-    font-size: 26px;
-  }
-
-  h4 {
-    font-size: 20px;
   }
 }
