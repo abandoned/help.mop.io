@@ -6,7 +6,7 @@ permalink: /how-does-mopio-reprice/
 
 Mopio reprices your listings in **real time**. This means it reprices as soon as a competing seller changes the price of their offer.
 
-Let's say you are listing at *$20* and another seller reduces their price to *$19.80*. Within seconds, Mopio will reduce your price to *$19.79* and send a price update to Amazon.
+Let's say you are listing at *$20* and another seller reduces their price to *$19.80*. Within seconds, Mopio will reduce your price to *$19.79* and send a price update to Amazon. If the other seller then raises their price to *$20.10*, we'll raise yours to *$20.09*.
 
 ## Limits
 
