@@ -1,7 +1,8 @@
 - title: Getting Started
   pages:
-  - amazon-mws-integration
-  - how-does-mopio-reprice
+  - activating-your-account
+  - amazon-mws
+  - how-does-repricing-work
 - title: Settings
   pages:
   - relative-margin

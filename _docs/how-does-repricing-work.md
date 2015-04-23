@@ -1,7 +1,7 @@
 ---
 layout: page
-title: How does Mopio reprice?
-permalink: /how-does-mopio-reprice/
+title: How does repricing work?
+permalink: /how-does-repricing-work/
 ---
 
 Mopio reprices your listings in **real time**. This means it reprices as soon as a competing seller changes the price of their offer.

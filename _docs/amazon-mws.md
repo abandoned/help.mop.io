@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Integration with Amazon MWS
-permalink: /amazon-mws-integration/
+title: Amazon MWS
+permalink: /amazon-mws/
 ---
 
 Amazon Marketplace Web Service (MWS) is a web service that helps sellers programmatically exchange data on their listings, orders and more. We use MWS to receive real-time marketplace notifications and send back inventory updates.
