@@ -1,6 +1,4 @@
-/**
- * Site header
- */
+// Site header
 .site-header {
   padding-top: $spacing-unit;
   text-align: center;
@@ -9,19 +7,19 @@
     font-size: 2.2em;
     margin-bottom: 0;
   }
+
+  a {
+    color: $text-color;
+  }
 }
 
-/**
- * Site footer
- */
+// Site footer
 .site-footer {
+  background: $grey-light;
   padding: $spacing-unit 0;
-  background: $grey-color-light;
 }
 
-/**
- * Page content
- */
+// Page content
 .page-content {
   padding: $spacing-unit 0;
 
