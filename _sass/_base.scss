@@ -1,131 +1,22 @@
-// Reset some basic elements
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-hr,
-dl,
-dd,
-ol,
-ul,
-figure {
-  margin: 0;
-  padding: 0;
-}
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
 
-// Basic styling
-body {
-  background-color: $background-color;
-  color: $text-color;
-  font-family: $base-font-family;
-  font-weight: 400;
-  line-height: $base-line-height;
-}
+@import 'bootstrap/normalize';
+@import 'bootstrap/print';
 
-p,
-li {
-  font-size: $base-font-size;
-}
+@import 'bootstrap/scaffolding';
+@import 'bootstrap/type';
+@import 'bootstrap/grid';
+@import 'bootstrap/forms';
 
-// Set `margin-bottom` to maintain vertical rhythm
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-ul,
-ol,
-dl,
-figure,
-%vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
-}
+@import 'bootstrap/navs';
+@import 'bootstrap/navbar';
+@import 'bootstrap/breadcrumbs';
+@import 'bootstrap/labels';
+@import 'bootstrap/badges';
+@import 'bootstrap/jumbotron';
+@import 'bootstrap/thumbnails';
+@import 'bootstrap/wells';
 
-// Images
-img {
-  max-width: 100%;
-}
-
-// Figures
-figure > img {
-  display: block;
-}
-
-figcaption {
-  font-size: $small-font-size;
-}
-
-// Lists
-ul,
-ol {
-  margin-left: $spacing-unit;
-}
-
-li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
-}
-
-// Headings
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 300;
-}
-
-// Links
-a {
-  color: $link-color;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-// Blockquotes
-blockquote {
-  border-left: 4px solid $grey-light;
-  color: $grey;
-  font-style: italic;
-  letter-spacing: -1px;
-  padding-left: $spacing-unit / 2;
-
-  > :last-child {
-    margin-bottom: 0;
-  }
-}
-
-// Wrapper
-.wrapper {
-  @extend %clearfix;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-  padding-left: $spacing-unit;
-  padding-right: $spacing-unit;
-}
-
-// Clearfix
-%clearfix {
-  &:after {
-    clear: both;
-    content: '';
-    display: table;
-  }
-}
+@import 'bootstrap/utilities';
+@import 'bootstrap/responsive-utilities';
