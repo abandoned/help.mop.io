@@ -1,9 +1,8 @@
 - title: Getting Started
   pages:
-  - activating-your-account
-  - amazon-mws
+  - activate-your-account
   - how-does-repricing-work
-- title: Settings
+- title: Key Concepts
   pages:
   - relative-margin
   - absolute-floor
