@@ -12,9 +12,9 @@ layout: default
     This is a work-in-progress document.
     Its goal is to make you immediately productive with Mopio and to help you understand how all of the pieces fit together.
   </div>
-  <ul class="pages list-unstyled">
+  <ul class="list-unstyled">
     {% for page in site.data.docs %}
-      {% assign doc_url = page | prepend:"/" | append:"/" %}
+      {% assign doc_url = page | prepend:"/docs/" | append:".html" %}
       {% for doc in site.docs %}
         {% if doc.url == doc_url %}
           <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>

@@ -3,21 +3,10 @@ layout: page
 title: Key concepts
 permalink: /key-concepts/
 ---
-Under settings.
-
-You can define global parameters for your inventory here. You can also change these parameters for individual items under the Listings tab.
-
-## Maximum Allowed Discount (MAD) calculates a floor for your prices based on a percentage of your original price. A MAD of 20% means that items originally listed for $10 will always remain above $8.
-
-There are two ways to override the MAD value if want to. First, you can set an Absolute Floor for all your items. Alternatively, you can also set individual floors for individual items.
-
-## Absolute Floor is the minimum price at which you are willing to sell your items. If you set an absolute floor, we will keep your prices above this value regardless of MAD. An absolute floor of $2 means that your listings will always be priced above $2. This is an optional feature for customers who need extra safety.  
-
-Note that the absolute floor applies to all of your listings. You also have the option of setting individual floors for individual listings. You can achieve this by clicking on the Listings tab. Mopio will then allow you to edit the individual listings by hand. If you want to edit a large number of listings, you may choose to upload a simple file. The details are explained in the Listings tab.
 
 ## Goal.
 
-This is where you choose the business goal that you want Mopio to pursue. You can select a global Goal in the Settings section. You can also choose individual goals for individual items by going to the Listings section. The ability to set business goals for individual items is especially useful for sellers who have a small number of SKUs.
+This is where you choose the business goal that you want Mopio to pursue. You can select a global Goal in the Settings section.
 
 After you've chosen your business goal, Mopio will select the appropriate algorithm from its portfolio in order to achieve your business goal. The portfolio of algorithms you have access to varies according to the subscription you have with us. With Mopio, you always stay in charge of your own business requirements. We take care of the technical details in the background.
 
