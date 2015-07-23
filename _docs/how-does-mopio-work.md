@@ -1,7 +1,7 @@
 ---
 layout: page
-title: How does repricing work?
-permalink: /how-does-repricing-work/
+title: How does Mopio work?
+permalink: /how-does-mopio-work/
 ---
 
 Mopio reprices your listings in **real time**. This means it reprices as soon as a competing seller changes the price of their offer.
@@ -16,9 +16,9 @@ Each listing has a floor and ceiling price, which are determined by the [relativ
 
 We tuck away the complexity of dynamic pricing behind a simple goal: to win the Buy Box and thereby to maximise your sales. Under the hood, we follow a few simple rules:
 
-* We only compete against listings who are eligible for the Buy Box. There's one exception: If your listing is not eligible, we'll price against all listings.
-* We price within the same condition category. If you're listing a new item, we only price against other new items.
-* We beat the competing offer by the smallest possible monetary value. There's one exception here: If we feel the other seller is pricing in real time as well, we cool off the race by **matching** instead of beating the competing price.
+1. We only compete against listings who are eligible for the Buy Box. There's one exception: If your listing is not eligible, we'll price against all listings.
+2. We price within the same condition category. If you're listing a new item, we only price against other new items.
+3. We beat the competing offer by the smallest possible monetary value. There's one exception here: If we feel the other seller is pricing in real time as well, we cool off the race by **matching** instead of beating the competing price.
 
 
 [margin]: /relative-margin/

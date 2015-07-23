@@ -6,23 +6,21 @@ layout: default
     <h1>What do you need help with?</h1>
   </div>
 </div>
+
 <div class="main container">
   <div class="well">
     This is a work-in-progress document.
     Its goal is to make you immediately productive with Mopio and to help you understand how all of the pieces fit together.
   </div>
-  {% for section in site.data.docs %}
-    <h2>{{ section.title }}</h2>
-    <ul class="list-unstyled">
-      {% for page in section.pages %}
-        {% assign doc_url = page | prepend:"/" | append:"/" %}
-        {% for doc in site.docs %}
-          {% if doc.url == doc_url %}
-            <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-            {% break %}
-          {% endif %}
-        {% endfor %}
+  <ul class="pages list-unstyled">
+    {% for page in site.data.docs %}
+      {% assign doc_url = page | prepend:"/" | append:"/" %}
+      {% for doc in site.docs %}
+        {% if doc.url == doc_url %}
+          <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+          {% break %}
+        {% endif %}
       {% endfor %}
-    </ul>
-  {% endfor %}
+    {% endfor %}
+  </ul>
 </div>

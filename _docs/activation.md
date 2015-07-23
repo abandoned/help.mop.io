@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Activate your account
-permalink: /activate-your-account/
+title: Activation
+permalink: /activation/
 ---
 
 We use Amazon Marketplace Web Service (MWS) to receive real-time marketplace notifications for your seller account. During signup, we'll guide you through a few simple steps to integrate your Mopio account with MWS.

@@ -1,12 +1,2 @@
-- title: Getting Started
-  pages:
-  - activate-your-account
-  - how-does-repricing-work
-- title: Key Concepts
-  pages:
-  - relative-margin
-  - absolute-floor
-  - selective
-- title: Listings
-  pages:
-  - floor-and-ceiling
+- activation
+- getting-started

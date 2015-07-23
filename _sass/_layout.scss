@@ -5,7 +5,9 @@
 
 .navbar-brand {
   img {
-    margin-top: -6px;
+    float: left;
+    margin-right: 20px;
+    margin-top: -9px;
     max-height: 36px;
   }
 }
@@ -18,44 +20,35 @@
   }
 }
 
+.navbar,
+.jumbotron {
+  font-family: "proxima-nova", sans-serif;
+}
+
 .well {
   border-radius: 0;
   box-shadow: none;
-}
-
-.breadcrumb {
-  border-radius: 0;
-  margin-top: 3em;
+  margin-bottom: 30px;
 }
 
 .main {
+  -webkit-font-smoothing: antialiased;
+  line-height: 30px;
   max-width: $screen-tablet;
-}
+  padding-bottom: 3em;
+  padding-top: 3em;
+  text-align: center;
 
-// Sticky footer
-$footer-bg: #2e3234;
-$footer-color: #b8b8b8;
-$footer-size: 100px;
+  .pages {
+    font-size: $font-size-h4;
 
-html {
-  min-height: 100%;
-  position: relative;
-}
+    li {
+      margin-bottom: 10px;
+    }
+  }
 
-body {
-  margin-bottom: $footer-size + 30px;
-}
-
-.footer {
-  background-color: $footer-bg;
-  bottom: 0;
-  color: $footer-color;
-  height: $footer-size;
-  padding-top: ($footer-size - 24px) / 2;
-  position: absolute;
-  width: 100%;
-
-  .container {
-    max-width: $screen-tablet;
+  p,
+  ol {
+    text-align: left;
   }
 }
