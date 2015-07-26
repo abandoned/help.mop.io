@@ -1,5 +1,5 @@
 $footer-bg: #2e3234;
-$footer-color: #b8b8b8;
+$footer-color: #999;
 $footer-size: 100px;
 
 html {
@@ -22,5 +22,6 @@ body {
 
   .container {
     max-width: $screen-tablet;
+    text-align: center;
   }
 }
