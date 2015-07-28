@@ -1,39 +1,4 @@
 @import 'header';
+@import 'jumbotron';
+@import 'content';
 @import 'footer';
-
-.jumbotron {
-  text-align: center;
-
-  h1 {
-    font-weight: 100;
-  }
-}
-
-.jumbotron {
-  font-family: "proxima-nova", sans-serif;
-}
-
-.well {
-  border-radius: 0;
-  box-shadow: none;
-  margin-bottom: 30px;
-}
-
-.main {
-  -webkit-font-smoothing: antialiased;
-  line-height: 28px;
-  max-width: $screen-tablet;
-  padding-bottom: 30px;
-  padding-top: 2em;
-  text-align: center;
-
-  p,
-  ol {
-    margin-bottom: 20px;
-    text-align: left;
-  }
-
-  h2 {
-    margin-top: 1em;
-  }
-}

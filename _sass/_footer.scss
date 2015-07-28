@@ -21,7 +21,10 @@ body {
   width: 100%;
 
   .container {
+    font-family: "proxima-nova", sans-serif;
+    letter-spacing: 2px;
     max-width: $screen-tablet;
     text-align: center;
+    text-transform: uppercase;
   }
 }
