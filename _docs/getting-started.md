@@ -13,15 +13,18 @@ Mopio has sensible defaults. We expect that most sellers can start using Mopio w
 
 You can tweak how Mopio behaves in two ways:
 
-1. You can define an application-wide strategy on the **Settings** page.
-2. You can define specific goals for each individual listing.
+1. You can define an app-wide strategy [on the Settings page][settings].
+2. You can define specific strategies for individual listings.
 
-The latter will override the application-wide strategy.
+The latter take precedence over the app-wide strategy.
 
+## App-wide strategy
 
-## Strategy
+Click on **Settings** in the top navigation bar to go to the **Strategy** page:
 
-You will start by setting a **business goal**. The default goal is to *win the Buy Box*. You can change this to *match* or *beat the lowest price*. These seem to work better if you are selling mostly in the Media categories.
+![foo](/images/getting-started-1.png)
+
+Here you will start by setting a **business goal**. The default goal is to *win the Buy Box*. You can change this to *match* or *beat the lowest price*. These seem to work better if you are selling mostly in the Media categories.
 
 If you choose to compete for the lowest price and sell used items, you can tweak your strategy to ignore listings in worse condition.
 
@@ -31,10 +34,19 @@ Finally, you have an option to set an **absolute floor**. This comes in handy if
 
 ## Listings
 
-If application-wide settings don't work for you, you will want to tweak listings individually. You can do so by editing the listings one-by-one or importing a flat file.
+To finetune how a listing is repriced beyond the app-wide settings, go to **Listings**, find and click on the listing, and go to **Edit**:
 
-You can define a **business goal** for each listing. This will override the app-wide goal.
+![foo](/images/getting-started-2.png)
 
-Similarly, you can set a **floor** and **ceiling** for each listing. These will override what we would have calculated using your MAD, MAM, and absolute floor.
+Here you can define a **business goal** for that listing. This will override the app-wide goal.
 
-If you set a floor of $25 and ceiling of $30 for a listing, we will work within those limits only, choosing what it believes is the optimal price point. If competing offers fall below your floor, we'll stop at the floor. Conversely, we'll never exceed your ceiling even if there is no competition.
+Similarly, you can set a **floor** and **ceiling** to define the boundaries within which our algorithm should operate. These will override what we would have calculated using your MAD, MAM, and absolute floor settings.
+
+If you set a floor of $25 and ceiling of $30 for a listing, we'll work within those limits only, choosing what we think is the optimal price point. If competing offers fall below your floor, we'll stop there. Conversely, we'll never exceed your ceiling even if there is no competition.
+
+If you would rather tweak your listings individually, you can turn off your app-wide strategy by setting both MAD and MAM to 0%.
+
+Finally, if you want to update a large number of listings, you will want to import a flat file or use our API instead of editing them individually by hand.
+
+
+[settings]: https://www.mop.io/settings/strategy
