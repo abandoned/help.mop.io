@@ -1,5 +1,3 @@
-$footer-bg: #2e3234;
-$footer-color: #999;
 $footer-size: 100px;
 
 html {
@@ -12,13 +10,17 @@ body {
 }
 
 .footer {
-  background-color: $footer-bg;
+  background-color: $gray-darker;
   bottom: 0;
-  color: $footer-color;
+  color: $gray-light;
   height: $footer-size;
   padding-top: ($footer-size - 24px) / 2;
   position: absolute;
   width: 100%;
+
+  a {
+    color: lighten($gray-light, 20%);
+  }
 
   .container {
     font-family: "proxima-nova", sans-serif;
